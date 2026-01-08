@@ -46,24 +46,21 @@ This code plots the throughput under the optimal mechanism with optimal informat
 
 ## Figure 11 (Matlab)
 
-The code for Figure 11 is located in matlab/Fig11/.
-This figure is generated using three separate Matlab code, each corresponding to a different model:
 
-Fig11_HeteroTravel_OrderAhead.m: Order-ahead model
+The code for Figure 11 is located in `matlab/Fig11/`. This figure is generated using three separate Matlab scripts, each corresponding to a different model:
 
-Fig11_HeteroTravel_OrderAheadRejection.m: Order-ahead-with-rejection model
+- `Fig11_HeteroTravel_OrderAhead.m`: Order-ahead model  
+- `Fig11_HeteroTravel_OrderAheadRejection.m`: Order-ahead-with-rejection model  
+- `Fig11_HeteroTravel_OrderOnsite.m`: Order-onsite model  
 
-Fig11_HeteroTravel_OrderOnsite.m: Order-onsite model
+These files plot the throughput under heterogeneous travel rates across different ranges of the travel rate parameter β.
 
-They plot the throughput under heterogeneous travel rates across different ranges of β.
+To generate throughput results for different β intervals, users only need to modify the parameter `beta_m` in the corresponding script:
 
-To generate the throughput for different β intervals, users only need to modify the parameter beta_m in the corresponding script:
+- `beta_m = 0.5` corresponds to the travel rate interval β ∈ [0, 1]  
+- `beta_m = 1` corresponds to the travel rate interval β ∈ [0.5, 1.5]  
+- `beta_m = 2` corresponds to the travel rate interval β ∈ [1.5, 2.5]  
 
-beta_m = 0.5 corresponds to the travel rate interval β ∈ [0, 1]
-
-beta_m = 1 corresponds to the travel rate interval β ∈ [0.5, 1.5]
-
-beta_m = 2 corresponds to the travel rate interval β ∈ [1.5, 2.5]
 
 
 ## Figure EC1 (Matlab)
