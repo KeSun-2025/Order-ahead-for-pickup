@@ -79,7 +79,6 @@ for i = 1 : lmdbar/step
             end
         end
     end
-    %check UAR(qeA,0) > USR(qeA,0)
     q2 = qeA(i);
     x3 = probc(lmd,q2,0,gamma,Nbar,mu,nbar,beta);
     UARe(i) = sum(UAn.*x3);
