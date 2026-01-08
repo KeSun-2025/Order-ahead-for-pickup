@@ -32,4 +32,10 @@ This main function calls the following auxiliary functions: est_gamma.m; rst_gam
 
 ## Figure 7 (Matlab)
 The code for Figure 7 is located in `matlab/Fig7/`.
-This code helps plot the throughput of Order-Ahead-with-Cancellation model under different travel rates β.
+This code helps plot the throughput of the Order-Ahead-with-Cancellation model under different travel rates β.
+
+
+## Figure 9 (Matlab)
+The code for Figure 9 is located in `matlab/Fig9/`.
+This code helps plot the throughput of the Order-Ahead-with-Cancellation model with a fixed travel rate β.
+
