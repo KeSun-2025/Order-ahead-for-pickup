@@ -13,3 +13,5 @@ Required packages:
 
 ## Figure 4 (Matlab)
 The code for Figure 4 is located in `matlab/Fig4/`.
+This figure illustrates the throughput of the order-ahead and order-onsite models
+when remote customers do not have delay information, under different travel rate β.
