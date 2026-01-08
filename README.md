@@ -96,3 +96,14 @@ The code for Table 2 is located in `matlab/Table2/`.
 optimal mechanism (Excel files) and four models (CSV files) across 625 scenarios.
 
 
+## Python Codes (Optimal Mechanism Search)
+
+This folder contains codes used to compute optimal throughput under the optimal mechanism across multiple parameter settings.
+
+The MATLAB file OARC_optimalSearch.m computes the optimal throughput for 625 scenarios and outputs the corresponding optimal throughput.
+
+The CSV files (QE_OARC_opt2.csv, NR_OARC_opt2.csv, NC_OARC_opt2.csv) store intermediate optimal policy parameters computed from the MATLAB code and are required inputs for the Python script.
+
+Based on these results, the Python script OptimalSearch_DifferentV.py allows users to modify the value of 𝑉 and re-run the optimal search over all remaining parameter combinations. The Python code aggregates the results and saves the optimal throughput and policy parameters into an Excel file.
+
+The generated Excel file is the input data used to construct Table 2.
