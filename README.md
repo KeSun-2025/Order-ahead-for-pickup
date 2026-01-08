@@ -43,6 +43,7 @@ This code helps plot the throughput of the Order-Ahead-with-Cancellation model w
 The code for Figure 10 is located in `matlab/Fig10/`.
 This code plots the throughput under the optimal mechanism with optimal information for a fixed travel rate β.
 
+
 ## Figure 11 (Matlab)
 
 The code for Figure 11 is located in matlab/Fig11/.
@@ -63,5 +64,17 @@ beta_m = 0.5 corresponds to the travel rate interval β ∈ [0, 1]
 beta_m = 1 corresponds to the travel rate interval β ∈ [0.5, 1.5]
 
 beta_m = 2 corresponds to the travel rate interval β ∈ [1.5, 2.5]
+
+
+## Figure EC1 (Matlab)
+
+The code for Figure EC1 is located in `matlab/FigEC1/`.
+
+- `FigEC1_Cancellation_max.m` computes the throughput under the cancellation model with optimal information.
+- `FigEC1_OrderAhead_max.m` computes the throughput under the order-ahead model with optimal information.
+- `FigEC1_Rejection_max.m` computes the throughput under the rejection model with optimal information.
+  
+Users can modify the value of `d` in each script to generate results.
+
 
 
