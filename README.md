@@ -39,3 +39,9 @@ This code helps plot the throughput of the Order-Ahead-with-Cancellation model u
 The code for Figure 9 is located in `matlab/Fig9/`.
 This code helps plot the throughput of the Order-Ahead-with-Cancellation model with a fixed travel rate β.
 
+## Figure 10 (Matlab)
+The code for Figure 10 is located in `matlab/Fig10/`.
+This code plots the throughput under the optimal mechanism with optimal information for a fixed travel rate β.
+
+
+
