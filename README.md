@@ -88,3 +88,11 @@ The code for Figure EC2 is located in `matlab/FigEC2/`.
 The following functions are used (or may be called) by the scripts above:`prob.m`; `probR_N.m`; `probR_ne.m`; `probc.m`
 
 
+## Table 2 (Matlab)
+
+The code for Table 2 is located in `matlab/Table2/`.
+
+`Table2_AllDifference.m` computes percentage throughput differences between the
+optimal mechanism (Excel files) and four models (CSV files) across 625 scenarios.
+
+
