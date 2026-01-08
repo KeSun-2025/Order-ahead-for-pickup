@@ -77,4 +77,14 @@ The code for Figure EC1 is located in `matlab/FigEC1/`.
 Users can modify the value of `d` in each script to generate results.
 
 
+## Figure EC2 (Matlab)
+
+The code for Figure EC2 is located in `matlab/FigEC2/`.
+
+- `FigEC2_MultiChannel_Cancellation.m` computes the throughput under the multi-channel cancellation model.
+- `FigEC2_MultiChannel_OrderAhead.m` computes the throughput under the multi-channel order-ahead model.
+- `FigEC2_MultiChannel_Rejection.m` computes the throughput under the multi-channel rejection model.
+
+The following functions are used (or may be called) by the scripts above:`prob.m`; `probR_N.m`; `probR_ne.m`; `probc.m`
+
 
