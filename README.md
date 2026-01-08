@@ -21,3 +21,6 @@ when remote customers do not have delay information, under different travel rate
 The code for Figure 5 is located in `matlab/Fig5/`.
 The file `Fig5_THmax_AheadOnsite.m` compares the throughput of the order-ahead and
 order-onsite models under optimal information.
+
+The file `OrderAhead_Info.m` plots the throughput of the order-ahead model when
+remote customers have delay information.
